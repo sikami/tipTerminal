@@ -68,3 +68,10 @@ wc -l science.txt	: how many lines the file has
 
 tar xvfz filename.tar.gz : to unpack a .tar.gz file
 tar cvzf archiveName.tar.gz /path/to/directory : to archive a folder in .tar.gz format
+MEANING OF cvzf and zvzf
+-------------------------
+x : tells tar to extract file
+c : create an archive
+v : verbose -display all file names that are processed
+z : uncompress the archive
+f : im supplying the name of the archive
