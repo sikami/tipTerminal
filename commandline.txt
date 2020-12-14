@@ -1,0 +1,70 @@
+Command Line
+
+ls -a	: list all files that is normally hidden
+ls -R	: show all files not only in directories but also subdir
+ls -al	: show detailed info of the files
+mkdir [name]	: creating subdirectory
+mkdrid [name] [name] [name]	: creating 3 dirs at one time
+cd	: change directory
+cd .. 	: go to parent directory
+cd /	: go to root
+pwd	: print working directory
+ls ~/blaba	: will go to the destination directory and print the list of the containing files
+cp file1 file2	: copy file1 in the curent working directory and call it file2, without deleting file1
+mv file1 file2	: moves file1 or rename file1 to file2 (its not copy)
+rm [file]	: remove a file
+rmdir [folder]	: remove directory
+clear (ctrl l)	: clear the screen	
+cat [filename]	: display content of file into screen
+less [filename]	: display less content into screen at one time
+head [filename]	: display 10 lines for a file content to screen
+tail [filename]	: display 10 lines end of file content to screen
+less [filename]/[word]	: search through a file for keyword(pattern), then type [n] to search for the next occurences
+history		: shows history 
+whoami		: shows the user name
+logname		: ditto
+echo [input]	: repeating the text of user input and displays it on screen
+echo $0		: displays the intrepreter name
+hostname	: displays the name of computer registered on system
+uname		: print system info
+uptime		: display how many minutes the system has been on
+cal		: open calendar
+date		: shows date
+top		: shows process activity in real time (use number 1 or 2 to change display)
+htop		: ditto with graph
+nano		: shows text editor like vim
+du		: sumarizes disk usage of the set of Files
+
+
+use --help to display the availability options
+
+
+
+
+--
+searching with grep (case sensitive)
+
+grep	: searches file for specific word/pattern
+ex: grep science science.txt
+
+grep -i science science.txt	: ignore case sensitive
+
+options:
+-v display lines that DONT match
+-n precede each matching line with line number
+-c print only the total count of matched line
+
+example:
+grep -ivc science science.txt	: number of lines without the words science or Science in it
+
+--------------
+
+wordcount:
+
+wc -w science.txt	: word count on science.txt
+wc -l science.txt	: how many lines the file has
+
+
+
+tar xvfz filename.tar.gz : to unpack a .tar.gz file
+tar cvzf archiveName.tar.gz /path/to/directory : to archive a folder in .tar.gz format

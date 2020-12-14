@@ -1,0 +1,10 @@
+Sudo
+
+Super user
+
+-sudo apt-get update		: updating all installed packages
+-chown user		:changing ownership of a file/dir 
+- chown user:group [filename]		: change user as well as group for a file/ directory
+- chgrp [groupname] [filename]		: change group owner only
+
+

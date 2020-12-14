@@ -1,0 +1,43 @@
+File System
+
+/bin	: binary directory contains executable for user. standard cli commands
+/sbin	: contains executable for super user
+/home	: contains user directories
+/root	: home dir for super user
+/etc	: contains config file (editable text configuration)
+/lib	: stores software library executable 
+/tmp	: temp file, always destroyed whenever restart computer
+/var	: contains various files used by OS, ex: db, history
+/usr	: (unix system resources) contains subfolder same like root, but used to extend system operation, not essential
+/dev	: contains files corespond to physical device (dev: device)
+
+file [nameoffile]	: will display on screen the type of file
+realpath [nameoffile]	: displays the path of the file
+which [commandname]	: gives path of the command
+touch			: create file
+	if you want to create file with space in between like: file aku
+	then escape with \, contoh: touch my\ file
+
+rm '[filename]'		: remove the spaced file name
+less			: when in long file, G -> go to end, g -> go to beginnning
+			: /joe	-> searching for joe
+			: n or N -> go back and forth for next matches
+
+yes | rm -ri folder	: all asking permission will be entered yes to delete a folder
+yes			: continuously prints yes to screen until exitted
+mount			: file system currently used by the operating system
+echo p*			: looks for file with the start word p
+echo /usr/bin/a??	: looks for file with 3 letters starts with a
+echo /usr/bin/???	: looks for 3 letters file
+find . -name "[filename]"	: will find file thats matches
+find . -name "prog*"		: find file with prog as beginning
+
+find / -name "hello" 2 > /dev/null	: 2 is message for error
+find / -name "*joe*" 2> /dev/null	: find any file containing joe then redirects the error to null folder
+free -m			: displays the amount of memory used
+
+
+
+
+
+

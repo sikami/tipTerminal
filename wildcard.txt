@@ -1,0 +1,15 @@
+Wildcard
+
+-ls list*	: will list all files in the current dir starting with list
+-ls *list	: will list all files in the currrent dir with end name list
+
+-ls ?list	: will match exactly one character
+
+Manual
+-man wc		: displays manual for word count
+-whatis wc	: ditto
+
+Apropos
+//when you are not sure of the exact name of a command
+-apropos command	: will give you command with keyword in their manual page header
+	

@@ -1,0 +1,28 @@
+PR
+
+pr
+printing of file to screen
+
+-pr -x		: divides the data into 'x' columns
+-pr -h		: assign header value as the report header
+-pr -t		: doesnt print header and top/bottom margins
+-pr -d		: double spaces the output file
+-pr -n		: denotes all line with numbers
+-pr -l		: defines page length in a page
+-pr -0		: formats page by margin number
+
+
+after done formating and wanting to print out the hard copy
+
+-lp [filename]	
+-lpr [filename]
+
+-lp -n19 [filename]	: printing 19 copies
+-lpr 19 [filename]	: ditto
+
+in case multiple printer, specify particular printer
+-lp -dHPofficejet [filename]
+-lpr -PHPOfficejet [filename]
+
+
+	

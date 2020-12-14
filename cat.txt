@@ -1,0 +1,17 @@
+Cat
+
+- cat
+will take input and reread it to console
+
+- cat > list1
+creating file called list1 
+then type whatever you want in there, end by ctrl d.
+
+- cat >> list1
+appending the content of list1
+
+- cat list1 list2 > biglist	: concantenating content of list1 and list2 outputting the concantenated text to a file named biglist
+
+
+
+

@@ -1,0 +1,16 @@
+SORT
+
+-sort
+will sort alphabetically, type names of someting and press ctrl D
+
+-sort < biglist		: redirect input to come from a file rather than keyboard output will be on screen
+-sort < biglist > slist	: ouput will be on file called slist
+
+
+-who > names.txt	: creating who in the system with you into file
+-sort < names.txt	: sorting the name and display onto screen
+
+-who | sort		: give result as above but cleaner
+
+
+
