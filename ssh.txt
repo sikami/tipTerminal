@@ -1,0 +1,44 @@
+SSH
+
+3 mechanism for SSH:
+Symetrical encryption - both client and server share key
+Asymetrical encryption - public and private key pair
+Hash
+
+===============
+To generate ssh
+===============
+
+$ ssh-keygen t rsa
+
+--> Once entered there will be questions of to where to put the file, 
+if not entered anything, the file will defaulty put in .ssh
+no need to put anything when it asks for paraphrase.
+
+there will be 2 files created:
+rsa_id (private)
+rsa_id.pub (public key to give out to remote server)
+
+===================================
+To copy public key to remote server
+===================================
+
+$ ssh-copy-id remoteusername@remoteserverip/name
+
+if command succesful, you will be greeted with:
+------------------------------------------------
+
+The authenticity of host 'Server's IP address' can't be established.
+
+RSA key fingerprint is ...
+
+Are you sure you want to continue connecting (yes/no)?
+
+--------------------------------------------------
+Then you will have to put in password.
+
+
+
+
+
+

@@ -40,6 +40,9 @@ wget		: used to download file from internet (eg: wget http://haha.net)
 
 use --help to display the availability options
 
+yes | [your command] : entering yes to every question in CLI
+echo -ne '\ne' | [your command] : entering enter to every question in CLI
+
 
 
 

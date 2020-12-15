@@ -1,0 +1,11 @@
+CI/CD
+
+======================================================
+Types of test to consider to be added in the pipeline:
+======================================================
+1. Static code analysis (Lint?) - analyze code for syntax errors, duplication, violations, security 		problems, etc
+2. Unit tests
+3. Integration tests - run aplication in its intended execution framework with external dependencies 		(Apis, database, queue, caches,etc)
+4. Acceptance tests - unlike unit test. for web-based software: remote-controlling browser page loads 		through tools such as selenium. mobile software: build artifact might go to device farm that runs 	the app on many mobile devices. Testing whether different browser accepts it, etc.
+5. Performance tests - search for performance problem.identifying bottlenecks. it should invoke the 		application within a clone of production environment, with real traffic pattern. Tools: Jmeter or 	Gatling can simulate thousands of concurrent users interacting with an application. monitorin gand 	graphic instrumentation should be in place.
+6. Infrastructure tests - test case verify proper config and operation of the infrastructure.
